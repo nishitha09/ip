@@ -72,7 +72,7 @@ img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.show()<br>
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939491/178444941-22505385-1d9e-497a-9573-ff70bff7a87c.png)
+![image](https://user-images.githubusercontent.com/97939491/178444941-22505385-1d9e-497a-9573-ff70bff7a87c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939284/173814439-9890ea4d-504b-4b0f-b1d5-24dbe52f9b18.png)<br>
 ![image](https://user-images.githubusercontent.com/97939284/173814560-3c54a329-6356-4a2d-884c-c6231bc1ac76.png)<br>
 
