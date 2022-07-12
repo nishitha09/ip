@@ -186,7 +186,7 @@ plt.show()<br>
 
 ![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)
 
-Program 12: Write a program to perform arith,atic operation on image
+Program 12: Write a program to perform arithmatic operation on image
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -293,9 +293,8 @@ plt.imshow(bitwiseNot_img2)<br>
 cv2.waitKey(0)<br>
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/176425095-2fb817b6-272c-4aab-9d45-15b9c8a4607d.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/176425327-3aa83223-2f3b-47b2-889c-2cbf9b42f162.png)
-
+![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
 # Program 1
 
 #importing libraries<br>
