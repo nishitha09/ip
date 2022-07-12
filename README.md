@@ -142,7 +142,7 @@ img=cv2.imread('Nemo.jpg')<br>
 plt.imshow(img)<br>
 plt.show()<br>
 
-OUTPUT:
+OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175016581-f6306b36-20bf-4e24-bb37-078e583ec0a5.png)<br>
 
 hsv_img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
@@ -223,10 +223,10 @@ plt.show()<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/175269380-a4bf888c-9b30-4add-ac24-f7c3cf7257c0.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175270010-a186dfe0-4797-4706-9453-c32c0f1fb01d.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175270050-30ce5312-883c-49d8-8789-75d5a3bdb533.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175270086-88159f3a-e0e8-425c-a57a-3725c409ff40.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178452658-68fa523a-9923-4f9a-a5bb-2bab4109c077.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178452761-d96f382e-413a-4d93-bf65-16e1776fcfa8.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178452865-47950bce-48c5-4250-9d31-84ce5c67111c.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178452916-c567004a-4d69-46fd-8fe2-b1bebbe1647f.png)<br>
 
 # Program 13: Develop the program to change the image to different color spaces
 
