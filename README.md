@@ -81,6 +81,24 @@ OUTPUT:<br>
 
 Program 7:Write a program to display the image attributes<br>
 
+from PIL import Image<br>
+image=Image.open('16.jpg')<br>
+print("Filename:",image.filename)<br>
+print("Format:",image.format)<br>
+print("Mode:",image.mode)<br>
+print("size:",image.size)<br>
+print("Width:",image.width)<br>
+print("Height:",image.height)<br>
+image.close()
+
+OUTPUT:<br>
+Filename: 16.jpg<br>
+Format: JPEG<br>
+Mode: RGB<br>
+size: (600, 398)<br>
+Width: 600<br>
+Height: 398<br>
+
 Program 8:Convert original image to gray scale andthen to binary
 import cv2<br>
 #read the image file<br>
