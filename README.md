@@ -65,20 +65,23 @@ Program 6:Develop a program to visualise the image using various color spaces
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 import numpy as np<br>
-img=cv2.imread('b2.jpg')<br>
+img=cv2.imread('6.jpg')<br>
 plt.imshow(img)<br>
 plt.show()<br>
 img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
+plt.imshow(img)<br>
+plt.show()<br>
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
+plt.imshow(img)<br>
 plt.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178444941-22505385-1d9e-497a-9573-ff70bff7a87c.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/173814439-9890ea4d-504b-4b0f-b1d5-24dbe52f9b18.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/173814560-3c54a329-6356-4a2d-884c-c6231bc1ac76.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178446532-b9b97c60-93f3-4583-9bfb-e02d172978cb.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178446664-c6bdb21f-d7b9-406c-bfa0-f0f100434534.png)<br>
 
 Program 7:Write a program to display the image attributes<br>
 
-import cv2<br><br>
+import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
 cv2.imshow("RGB",img)<br>
@@ -94,9 +97,9 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/175278709-775c6722-555e-4a93-8e65-825ab6d4d318.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175278786-0595d26f-eb31-4ea0-9381-6891c9e5228b.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175278901-a86de8c1-2293-4c1c-8cfc-c4bbdd39d134.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178447330-cfcec33b-8f32-4903-8464-ae75e2a749b5.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178447670-c74210bd-031b-4159-b0f8-2ceee4e26204.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
 Program 9:
 
@@ -112,11 +115,11 @@ print('Resized image length width',imgresize.shape)
 cv2.waitKey(0)
 
 OUTPUT:<br>
-original image length width (399, 600, 3)<br>
+original image length width (705, 564, 3)<br>
 Resized image length width (160, 150, 3)<br>
-
-![image](https://user-images.githubusercontent.com/97939284/175283009-9af4da4b-67f5-48b2-a1e0-294b87e8107d.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175283093-5cb847aa-8fc1-45a9-996b-59ba86584070.png)
+ 
+![image](https://user-images.githubusercontent.com/97939491/178448146-4e7875ec-57f0-4179-83e0-82951d20d7f2.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178448225-662a0718-9623-487e-8ec3-fb4b1e0b426e.png)<br>
 
 Program 10 :Write a program to read image using URL
 
@@ -139,6 +142,7 @@ img=cv2.imread('Nemo.jpg')<br>
 plt.imshow(img)<br>
 plt.show()<br>
 
+OUTPUT:
 ![image](https://user-images.githubusercontent.com/97939284/175016581-f6306b36-20bf-4e24-bb37-078e583ec0a5.png)<br>
 
 hsv_img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
