@@ -186,7 +186,7 @@ plt.show()<br>
 
 ![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)
 
-# Program 12: Write a program to perform arith,atic operation on image
+Program 12: Write a program to perform arith,atic operation on image
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -228,7 +228,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452865-47950bce-48c5-4250-9d31-84ce5c67111c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452916-c567004a-4d69-46fd-8fe2-b1bebbe1647f.png)<br>
 
-# Program 13: Develop the program to change the image to different color spaces
+Program 13: Develop the program to change the image to different color spaces
 
 import cv2<br> 
 img=cv2.imread('D:\\R.jpg')<br> 
@@ -246,11 +246,11 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br> 
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/175273905-b150309d-e394-451e-b2e4-e89a55e3bd53.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175274121-4703590c-f8ac-4f15-b5de-e4ab77b04f9e.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175274354-a32fe70d-64c5-4e05-bf22-c5a14c9976b9.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175275129-a8bec00c-081e-41da-abff-164068546848.png)<br>
-![image](https://user-images.githubusercontent.com/97939284/175274788-3ce92a66-1786-429d-88dc-601be8887b18.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178454236-802fe2c9-e15f-4897-b7b8-315bcb891228.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178454307-e05af90c-8cdf-4091-bde6-78d38095305c.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178454399-85208802-0aef-4d72-9261-d79abce69a31.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178454439-47e8eefd-38fd-410b-bd56-8e16896c6fe4.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178454484-95c1d79b-1467-4daa-ad34-d3e28b32dfbb.png)<br>
 
 # Program 14 :Program to create an image using 2D array<br>
 
