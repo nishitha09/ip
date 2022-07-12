@@ -104,16 +104,16 @@ OUTPUT:<br>
 
 Program 9:Resize the original image
 
-import cv2
-img=cv2.imread('b4.jpg')
-print('original image length width',img.shape)
-cv2.imshow('original image',img)
-cv2.waitKey(0)
+import cv2<br>
+img=cv2.imread('b4.jpg')<br>
+print('original image length width',img.shape)<br>
+cv2.imshow('original image',img)<br>
+cv2.waitKey(0)<br>
 #to show the resized image
-imgresize=cv2.resize(img,(150,160))
-cv2.imshow('Resized image',imgresize) 
-print('Resized image length width',imgresize.shape)
-cv2.waitKey(0)
+imgresize=cv2.resize(img,(150,160))<br>
+cv2.imshow('Resized image',imgresize) <br>
+print('Resized image length width',imgresize.shape)<br>
+cv2.waitKey(0)<br>
 
 OUTPUT:<br>
 original image length width (705, 564, 3)<br>
