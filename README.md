@@ -81,6 +81,7 @@ OUTPUT:<br>
 
 Program 7:Write a program to display the image attributes<br>
 
+Program 8:Convert original image to gray scale andthen to binary
 import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
@@ -101,7 +102,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447670-c74210bd-031b-4159-b0f8-2ceee4e26204.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
-Program 8:Convert original image to
+Program 9:Resize the original image
 
 import cv2
 img=cv2.imread('b4.jpg')
@@ -252,7 +253,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454439-47e8eefd-38fd-410b-bd56-8e16896c6fe4.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454484-95c1d79b-1467-4daa-ad34-d3e28b32dfbb.png)<br>
 
-# Program 14 :Program to create an image using 2D array<br>
+Program 14 :Program to create an image using 2D array<br>
 
 import cv2 as c<br>
 import numpy as np<br>
@@ -268,7 +269,7 @@ c.waitKey(0)<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)
 
-# Program 15:De
+Program 15:Bitwise Operation
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -295,9 +296,10 @@ cv2.waitKey(0)<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
-# Program 1
 
-#importing libraries<br>
+Program 16:Blurring image
+
+importing libraries<br>
 import cv2<br>
 import numpy as np<br>
 image=cv2.imread('g.jpg')<br>
@@ -323,6 +325,8 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)
 ![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)
 
+Program 17:Image enhancement
+
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
 image=Image.open('19.jpg')<br>
@@ -344,12 +348,14 @@ sharpness=3.0<br>
 image_sharped=enh_sha.enhance(sharpness)<br>
 image_sharped.show()<br>
 
+OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459237-7c2f1ef6-4b0e-40f8-b4fe-ad540ccf1aa5.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459281-c970b2e8-bc70-4589-a0de-5a56d8615424.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459335-ff1c09c9-202c-4fd9-b637-16a01646016c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459374-4b664932-83dd-41f0-b60c-723bd7340152.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459421-d2b87e85-2752-4978-a501-8d0247e0e8f2.png)<br>
 
+Program 18:Morphological Operation
 
 import cv2<br>
 import numpy as np<br>
@@ -374,6 +380,8 @@ plt.imshow(dilation)<br>
 plt.subplot(155)<br>
 plt.imshow(gradient)<br>
 cv2.waitKey(0)<br>
+
+OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)
 
 
