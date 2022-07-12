@@ -1,6 +1,6 @@
-# ip
 
-# Program 1:Develop a program to display Grayscale image using read and write operations
+
+Program 1:Develop a program to display Grayscale image using read and write operations
    
  import cv2<br>
  img=cv2.imread('b1.jpg',0)<br>
@@ -9,9 +9,9 @@
  cv2.destroyAllWindows()<br>
   
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/175284445-95473665-f4e5-4a1b-a2f9-3d2c29b8bb02.png)
+![image](https://user-images.githubusercontent.com/97939491/178444060-1c6d34fd-3ebe-4127-87cc-94a2fb7e1861.png)
 
-# Program 2:Develop a program to display image using matplotlib
+Program 2:Develop a program to display image using matplotlib
  
  import matplotlib.image as mping<br>
  import matplotlib.pyplot as plt<br>
@@ -19,9 +19,9 @@ OUTPUT:<br>
  plt.imshow(img)<br>
  
  OUTPUT:<br>
- ![image](https://user-images.githubusercontent.com/97939284/173809538-19372b96-f0f6-49f8-bc2a-f60dd9ae31af.png) 
+![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
  
-# Program 3:Develop a program to perform linear transformation 
+Program 3:Develop a program to perform linear transformation 
 
 from PIL import Image<br>
 img=Image.open('l1.jpg')<br>
@@ -31,9 +31,9 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/173813194-5f2722a6-034c-4747-b1dc-07a53a384e08.png)
+![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
 
-# Program 4:Develop a program to covert color string to RGB color values
+Program 4:Develop a program to covert color string to RGB color values
 
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -51,7 +51,7 @@ OUTPUT:<br>
 (255, 192, 203)<br>
 (0, 0, 255)<br>
 
-# Program 5:Develop a program to create image using colors<br>
+Program 5:Develop a program to create image using colors<br>
 
 from PIL import Image<br>
 img=Image.new("RGB",(200,400),(0, 0, 255))<br>
@@ -60,7 +60,7 @@ img.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
 
-# Program 6:Develop a program to visualise the image using various color spaces
+Program 6:Develop a program to visualise the image using various color spaces
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -72,11 +72,11 @@ img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.show()<br>
 OUTPUT:<br>
-![image](https://user-images.githubusercontent.com/97939284/173814290-0aca2040-dcff-4ad5-8661-82f8265e52a7.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178444941-22505385-1d9e-497a-9573-ff70bff7a87c.png)
 ![image](https://user-images.githubusercontent.com/97939284/173814439-9890ea4d-504b-4b0f-b1d5-24dbe52f9b18.png)<br>
 ![image](https://user-images.githubusercontent.com/97939284/173814560-3c54a329-6356-4a2d-884c-c6231bc1ac76.png)<br>
 
-# Program 7:Write a program to display the image attributes<br>
+Program 7:Write a program to display the image attributes<br>
 
 import cv2<br><br>
 #read the image file<br>
@@ -98,7 +98,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175278786-0595d26f-eb31-4ea0-9381-6891c9e5228b.png)<br>
 ![image](https://user-images.githubusercontent.com/97939284/175278901-a86de8c1-2293-4c1c-8cfc-c4bbdd39d134.png)<br>
 
-# Program 9:
+Program 9:
 
 import cv2
 img=cv2.imread('b4.jpg')
@@ -118,7 +118,7 @@ Resized image length width (160, 150, 3)<br>
 ![image](https://user-images.githubusercontent.com/97939284/175283009-9af4da4b-67f5-48b2-a1e0-294b87e8107d.png)<br>
 ![image](https://user-images.githubusercontent.com/97939284/175283093-5cb847aa-8fc1-45a9-996b-59ba86584070.png)
 
-# Program 10 :Write a program to read image using URL
+Program 10 :Write a program to read image using URL
 
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
@@ -130,7 +130,7 @@ plt.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
 
-# Program 11:Write a program to mask and blur the image
+Program 11:Write a program to mask and blur the image
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
