@@ -447,22 +447,22 @@ OUTPUT:
 ![image](https://user-images.githubusercontent.com/97939491/178712823-ad57859f-b838-4d6b-ad4c-73a12e28cefa.png)<br>
 
 
-import cv2
-import numpy as np
-from matplotlib import pyplot as plt
-image=cv2.imread('b1.jpg',0)
-x,y=image.shape
-z=np.zeros((x,y))
-for i in range (0,x):
-    for j in range(0,y):
-        if(image[i][j]>50 and image[i][j]<150):
-            z[i][j]=255
-        else:
-            z[i][j]=image[i][j]
-equ=np.hstack((image,z))
-plt.title('Gray level slicing w/o background')
-plt.imshow(equ,'gray')
-plt.show()
+import cv2<br>
+import numpy as np<br>
+from matplotlib import pyplot as plt<br>
+image=cv2.imread('b1.jpg',0)<br>
+x,y=image.shape<br>
+z=np.zeros((x,y))<br>
+for i in range (0,x):<br>
+    for j in range(0,y):<br>
+        if(image[i][j]>50 and image[i][j]<150):<br>
+            z[i][j]=255<br>
+        else:<br>
+            z[i][j]=image[i][j]<br>
+equ=np.hstack((image,z))<br>
+plt.title('Gray level slicing w/o background')<br>
+plt.imshow(equ,'gray')<br>
+plt.show()<br>
 
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178715584-3fdeb980-37b6-4565-a2ae-ddc3e38d6663.png)<br>
