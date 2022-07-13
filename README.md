@@ -463,3 +463,6 @@ equ=np.hstack((image,z))
 plt.title('Gray level slicing w/o background')
 plt.imshow(equ,'gray')
 plt.show()
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97939491/178715584-3fdeb980-37b6-4565-a2ae-ddc3e38d6663.png)<br>
