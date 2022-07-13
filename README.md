@@ -1,6 +1,6 @@
 
 
-Program 1:Develop a program to display Grayscale image using read and write operations
+PROGRAM 1: Develop a program to display Grayscale image using read and write operations
    
  import cv2<br>
  img=cv2.imread('b1.jpg',0)<br>
@@ -11,7 +11,7 @@ Program 1:Develop a program to display Grayscale image using read and write oper
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178444060-1c6d34fd-3ebe-4127-87cc-94a2fb7e1861.png)
 
-Program 2:Develop a program to display image using matplotlib
+PROGRAM 2: Develop a program to display image using matplotlib
  
  import matplotlib.image as mping<br>
  import matplotlib.pyplot as plt<br>
@@ -21,7 +21,7 @@ Program 2:Develop a program to display image using matplotlib
  OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
  
-Program 3:Develop a program to perform linear transformation 
+PROGRAM 3:Develop a program to perform linear transformation 
 
 from PIL import Image<br>
 img=Image.open('l1.jpg')<br>
@@ -33,7 +33,7 @@ cv2.destroyAllWindows()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
 
-Program 4:Develop a program to covert color string to RGB color values
+PROGRAM 4:Develop a program to covert color string to RGB color values
 
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -51,7 +51,7 @@ OUTPUT:<br>
 (255, 192, 203)<br>
 (0, 0, 255)<br>
 
-Program 5:Develop a program to create image using colors<br>
+PROGRAM 5:Develop a program to create image using colors<br>
 
 from PIL import Image<br>
 img=Image.new("RGB",(200,400),(0, 0, 255))<br>
@@ -60,7 +60,7 @@ img.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
 
-Program 6:Develop a program to visualise the image using various color spaces
+PROGRAM 6:Develop a program to visualise the image using various color spaces
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -79,7 +79,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446532-b9b97c60-93f3-4583-9bfb-e02d172978cb.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446664-c6bdb21f-d7b9-406c-bfa0-f0f100434534.png)<br>
 
-Program 7:Write a program to display the image attributes<br>
+PROGRAM 7:Write a program to display the image attributes<br>
 
 from PIL import Image<br>
 image=Image.open('16.jpg')<br>
@@ -99,7 +99,7 @@ size: (600, 398)<br>
 Width: 600<br>
 Height: 398<br>
 
-Program 8:Convert original image to gray scale andthen to binary
+PROGRAM 8:Convert original image to gray scale andthen to binary
 import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
@@ -120,7 +120,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447670-c74210bd-031b-4159-b0f8-2ceee4e26204.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
-Program 9:Resize the original image
+PROGRAM 9:Resize the original image
 
 import cv2<br>
 img=cv2.imread('b4.jpg')<br>
@@ -140,7 +140,7 @@ Resized image length width (160, 150, 3)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178448146-4e7875ec-57f0-4179-83e0-82951d20d7f2.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178448225-662a0718-9623-487e-8ec3-fb4b1e0b426e.png)<br>
 
-Program 10 :Write a program to read image using URL
+PROGRAM 10 :Write a program to read image using URL
 
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
@@ -152,7 +152,7 @@ plt.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
 
-Program 11:Write a program to mask and blur the image
+PROGRAM 11:Write a program to mask and blur the image
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -205,7 +205,7 @@ plt.show()<br>
 
 ![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)
 
-Program 12: Write a program to perform arithmatic operation on image
+PROGRAM 12: Write a program to perform arithmatic operation on image
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -247,7 +247,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452865-47950bce-48c5-4250-9d31-84ce5c67111c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452916-c567004a-4d69-46fd-8fe2-b1bebbe1647f.png)<br>
 
-Program 13: Develop the program to change the image to different color spaces
+PROGRAM 13: Develop the program to change the image to different color spaces
 
 import cv2<br> 
 img=cv2.imread('D:\\R.jpg')<br> 
@@ -271,7 +271,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454439-47e8eefd-38fd-410b-bd56-8e16896c6fe4.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454484-95c1d79b-1467-4daa-ad34-d3e28b32dfbb.png)<br>
 
-Program 14 :Program to create an image using 2D array<br>
+PROGRAM 14 :Program to create an image using 2D array<br>
 
 import cv2 as c<br>
 import numpy as np<br>
@@ -287,7 +287,7 @@ c.waitKey(0)<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)
 
-Program 15:Bitwise Operation
+PROGRAM 15:Bitwise Operation
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -315,7 +315,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
 
-Program 16:Blurring image
+PROGRAM 16:Blurring image
 
 importing libraries<br>
 import cv2<br>
@@ -343,7 +343,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)
 ![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)
 
-Program 17:Image enhancement
+PROGRAM 17:Image enhancement
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -373,7 +373,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459374-4b664932-83dd-41f0-b60c-723bd7340152.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459421-d2b87e85-2752-4978-a501-8d0247e0e8f2.png)<br>
 
-Program 18:Morphological Operation
+PROGRAM 18:Morphological Operation
 
 import cv2<br>
 import numpy as np<br>
@@ -402,7 +402,7 @@ cv2.waitKey(0)<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)
 
-Program 19:Develop a program to
+PROGRAM 19:Develop a program to
 (i)Read the image
 (ii)Write (save) the gray scale image and 
 (iii)Display the original image and grayscale image
@@ -423,7 +423,7 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178711706-314add0a-9386-4a9e-9eac-61d3344ef1fb.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178711832-af98e611-cd33-45ce-88e6-6f32f8514468.png)<br>
 
-Program 20: Slicing with background:
+PROGRAM 20: Slicing with background:
 
 import cv2<br>
 import numpy as np<br>
@@ -446,6 +446,7 @@ OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/97939491/178712823-ad57859f-b838-4d6b-ad4c-73a12e28cefa.png)<br>
 
+PROGRAM 21: Slicing without background:
 
 import cv2<br>
 import numpy as np<br>
