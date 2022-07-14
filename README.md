@@ -479,14 +479,37 @@ plt.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178961125-21995c0e-95be-40c8-b4af-057e7aa97186.png)<br>
 
-# importing required libraries of opencv
 import cv2<br>
- # importing library for plotting
 from matplotlib import pyplot as plt<br>
- # reads an input image
 img = cv2.imread('b1.jpg',0)<br>
- # find frequency of pixels in range 0-255
 histr = cv2.calcHist([img],[0],None,[256],[0,256])<br>
- # show the plotting graph of an image
 plt.plot(histr)<br>
 plt.show()<br>
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97939491/178963075-d94a1112-31ef-4f40-a302-93d58837fca3.png)<br>
+
+from skimage import io<br>
+import matplotlib.pyplot as plt<br>
+image = io.imread('b1.jpg')<br>
+plt.hist(image.ravel(), bins = 256, color = 'orange', )<br>
+plt.hist(image[:, :, 0].ravel(), bins = 256, color = 'red', alpha = 0.5)<br>
+plt.hist(image[:, :, 1].ravel(), bins = 256, color = 'Green', alpha = 0.5)<br>
+plt.hist(image[:, :, 2].ravel(), bins = 256, color = 'Blue', alpha = 0.5)<br>
+plt.xlabel('Intensity Value')<br>
+plt.ylabel('Count')<br>
+plt.legend(['Total', 'Red_Channel', 'Green_Channel', 'Blue_Channel'])<br>
+plt.show()<br>
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97939491/178963461-b91aa4f1-7dbb-4b9a-8527-4678cfbb8fc7.png)<br>
+
+import cv2
+import numpy as np
+img=cv2.imread('b1.jpg')
+hist=cv2.calcHist([img],[0],None,[256],[0,256])
+plt.hist(img.ravel(),256,[0,256])
+plt.show()
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97939491/178963807-fe01a9c2-276c-4e98-b77d-bcce1a99dea9.png)<br>
