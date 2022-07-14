@@ -467,3 +467,14 @@ plt.show()<br>
 
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178715584-3fdeb980-37b6-4565-a2ae-ddc3e38d6663.png)<br>
+
+Program22: Analyse the image data using histogram
+
+import cv2<br>
+from matplotlib import pyplot as plt<br>
+img = cv2.imread('b1.jpg',0)<br>
+plt.hist(img.ravel(),256,[0,256])<br>
+plt.show()<br>
+
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97939491/178961125-21995c0e-95be-40c8-b4af-057e7aa97186.png)<br>
