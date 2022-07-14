@@ -481,16 +481,12 @@ OUTPUT:<br>
 
 # importing required libraries of opencv
 import cv2<br>
- 
-# importing library for plotting
+ # importing library for plotting
 from matplotlib import pyplot as plt<br>
- 
-# reads an input image
+ # reads an input image
 img = cv2.imread('b1.jpg',0)<br>
- 
-# find frequency of pixels in range 0-255
+ # find frequency of pixels in range 0-255
 histr = cv2.calcHist([img],[0],None,[256],[0,256])<br>
- 
-# show the plotting graph of an image
+ # show the plotting graph of an image
 plt.plot(histr)<br>
 plt.show()<br>
