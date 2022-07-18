@@ -1,6 +1,6 @@
 
 
-PROGRAM 1: Develop a program to display Grayscale image using read and write operations
+**PROGRAM 1: Develop a program to display Grayscale image using read and write operations**
    
  import cv2<br>
  img=cv2.imread('b1.jpg',0)<br>
