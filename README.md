@@ -504,12 +504,12 @@ plt.show()<br>
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178963461-b91aa4f1-7dbb-4b9a-8527-4678cfbb8fc7.png)<br>
 
-import cv2
-import numpy as np
-img=cv2.imread('b1.jpg')
-hist=cv2.calcHist([img],[0],None,[256],[0,256])
-plt.hist(img.ravel(),256,[0,256])
-plt.show()
+import cv2<br>
+import numpy as np<br>
+img=cv2.imread('b1.jpg')<br>
+hist=cv2.calcHist([img],[0],None,[256],[0,256])<br>
+plt.hist(img.ravel(),256,[0,256])<br>
+plt.show()<br>
 
 OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97939491/178963807-fe01a9c2-276c-4e98-b77d-bcce1a99dea9.png)<br>
