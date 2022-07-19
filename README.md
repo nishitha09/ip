@@ -8,21 +8,20 @@
  cv2.waitKey(0)<br>
  cv2.destroyAllWindows()<br>
   
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444060-1c6d34fd-3ebe-4127-87cc-94a2fb7e1861.png)
 
-PROGRAM 2: Develop a program to display image using matplotlib
+**PROGRAM 2: DEVELOP A PROGRAM TO DISPLAY IMAGE USING MATPLOTLIB**
  
  import matplotlib.image as mping<br>
  import matplotlib.pyplot as plt<br>
  img=mping.imread('f2.jpg')<br>
  plt.imshow(img)<br>
  
- OUTPUT:<br>
+ **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
  
-PROGRAM 3:Develop a program to perform linear transformation 
-
+**PROGRAM 3:DEVELOP A PROGRAM TO PERFORM LINEAR TRANSFORMATION:**
 from PIL import Image<br>
 img=Image.open('l1.jpg')<br>
 img=img.rotate(180)<br>
@@ -30,10 +29,10 @@ img.show()<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
 
-PROGRAM 4:Develop a program to covert color string to RGB color values
+PROGRAM 4:DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
 
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -45,22 +44,22 @@ print(img3)<br>
 img4=ImageColor.getrgb("blue")<br>
 print(img4)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 (255, 255, 0)<br>
 (255, 0, 0)<br>
 (255, 192, 203)<br>
 (0, 0, 255)<br>
 
-PROGRAM 5:Develop a program to create image using colors<br>
+**PROGRAM 5:DEVELOP PROGRAM TO CREATE IMAGE USING COLORS:**
 
 from PIL import Image<br>
 img=Image.new("RGB",(200,400),(0, 0, 255))<br>
 img.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
 
-PROGRAM 6:Develop a program to visualise the image using various color spaces
+PROGRAM 6:DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -74,12 +73,13 @@ plt.show()<br>
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.imshow(img)<br>
 plt.show()<br>
-OUTPUT:<br>
+
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444941-22505385-1d9e-497a-9573-ff70bff7a87c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446532-b9b97c60-93f3-4583-9bfb-e02d172978cb.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446664-c6bdb21f-d7b9-406c-bfa0-f0f100434534.png)<br>
 
-PROGRAM 7:Write a program to display the image attributes<br>
+**PROGRAM 7:WRITE A PROGRAM TO DISPLAY IMAGE ATTRIBUTE:**
 
 from PIL import Image<br>
 image=Image.open('16.jpg')<br>
@@ -91,7 +91,7 @@ print("Width:",image.width)<br>
 print("Height:",image.height)<br>
 image.close()
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 Filename: 16.jpg<br>
 Format: JPEG<br>
 Mode: RGB<br>
@@ -99,7 +99,7 @@ size: (600, 398)<br>
 Width: 600<br>
 Height: 398<br>
 
-PROGRAM 8:Convert original image to gray scale andthen to binary
+PROGRAM 8:CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
 import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
@@ -115,13 +115,12 @@ cv2.imshow("Binary",bw_img)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178447330-cfcec33b-8f32-4903-8464-ae75e2a749b5.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447670-c74210bd-031b-4159-b0f8-2ceee4e26204.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
-PROGRAM 9:Resize the original image
-
+**PROGRAM 9:RESIZE THE ORIGINAL IMAGE**
 import cv2<br>
 img=cv2.imread('b4.jpg')<br>
 print('original image length width',img.shape)<br>
@@ -133,14 +132,14 @@ cv2.imshow('Resized image',imgresize) <br>
 print('Resized image length width',imgresize.shape)<br>
 cv2.waitKey(0)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 original image length width (705, 564, 3)<br>
 Resized image length width (160, 150, 3)<br>
  
 ![image](https://user-images.githubusercontent.com/97939491/178448146-4e7875ec-57f0-4179-83e0-82951d20d7f2.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178448225-662a0718-9623-487e-8ec3-fb4b1e0b426e.png)<br>
 
-PROGRAM 10 :Write a program to read image using URL
+**PROGRAM 10 :WRITE PROGRAM TO READ IMAGE USING URL:**
 
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
@@ -149,7 +148,7 @@ image=io.imread(url)<br>
 plt.imshow(image)<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
 
 PROGRAM 11:Write a program to mask and blur the image
