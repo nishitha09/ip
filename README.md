@@ -1,6 +1,6 @@
 
 
-**PROGRAM 1: Develop a program to display Grayscale image using read and write operations**
+**PROGRAM 1: DEVELOP A PROGRAM TO DISPLAY GRAY SCALE IMAGE USING READ AND WRITE OPERATION**
    
  import cv2<br>
  img=cv2.imread('b1.jpg',0)<br>
@@ -32,7 +32,7 @@ cv2.destroyAllWindows()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
 
-PROGRAM 4:DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
+**PROGRAM 4:DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
 
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -59,7 +59,7 @@ img.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
 
-PROGRAM 6:DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
+**PROGRAM 6:DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -99,7 +99,7 @@ size: (600, 398)<br>
 Width: 600<br>
 Height: 398<br>
 
-PROGRAM 8:CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
+**PROGRAM 8:CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
 import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
