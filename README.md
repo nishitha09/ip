@@ -101,6 +101,7 @@ Width: 600<br>
 Height: 398<br>
 
 **PROGRAM 8:CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
+
 import cv2<br>
 #read the image file<br>
 img=cv2.imread('b2.jpg')<br>
