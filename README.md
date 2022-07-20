@@ -9,7 +9,7 @@
  cv2.destroyAllWindows()<br>
   
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178444060-1c6d34fd-3ebe-4127-87cc-94a2fb7e1861.png)
+![image](https://user-images.githubusercontent.com/97939491/178444060-1c6d34fd-3ebe-4127-87cc-94a2fb7e1861.png)<br>
 
 **PROGRAM 2: DEVELOP A PROGRAM TO DISPLAY IMAGE USING MATPLOTLIB**
  
@@ -19,7 +19,7 @@
  plt.imshow(img)<br>
  
  **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
+![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)<br>
  
 **PROGRAM 3: DEVELOP A PROGRAM TO PERFORM LINEAR TRANSFORMATION:**
 
@@ -31,7 +31,7 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
+![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)<br>
 
 **PROGRAM 4: DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
 
@@ -58,7 +58,7 @@ img=Image.new("RGB",(200,400),(0, 0, 255))<br>
 img.show()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
+![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)<br>
 
 **PROGRAM 6: DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
 
@@ -151,7 +151,7 @@ plt.imshow(image)<br>
 plt.show()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
+![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)<br>
 
 **PROGRAM 11: WRITE THE PROGRAM TO MASK AND BLUR THE IMAGE:**
 
@@ -190,7 +190,7 @@ plt.imshow(result_white)<br>
 plt.show()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939284/175021322-e0c791b4-b034-459b-872a-fdab3c014de8.png)
+![image](https://user-images.githubusercontent.com/97939284/175021322-e0c791b4-b034-459b-872a-fdab3c014de8.png)<br>
 
 final_mask=mask+mask_white<br>
 final_result=cv2.bitwise_and(img,img,mask=final_mask)<br>
@@ -208,7 +208,7 @@ plt.imshow(blur)<br>
 plt.show()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)
+![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)<br>
 
 **PROGRAM 12: WRITE A PROGRAM TO PERFORM ARITHMETIC OPERATION ON IMAGE:**
 
@@ -247,8 +247,8 @@ plt.show()<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179968143-79b68637-ac3a-408b-ab94-35b9c5ed13dd.png)
-![image](https://user-images.githubusercontent.com/97939491/179968234-e5cc2b1c-9bae-4562-a373-903e57711979.png)
+![image](https://user-images.githubusercontent.com/97939491/179968143-79b68637-ac3a-408b-ab94-35b9c5ed13dd.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/179968234-e5cc2b1c-9bae-4562-a373-903e57711979.png)<br>
 
 **PROGRAM 13: DEVELOP A PROGRAM TO CAHNGE A IMAGE TO DIFFERENT COLOR SPACES:**
 
@@ -288,7 +288,7 @@ img.show()<br>
 c.waitKey(0)<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)
+![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)<br>
 
 **PROGRAM 15: PROGRAM TO PERFORM BITWISE OPERATION:**
 
@@ -316,7 +316,7 @@ cv2.waitKey(0)<br>
 
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
-![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
+![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)<br>
 
 **PROGRAM 16: PROGRAM TO PERFORM BLURRING THE IMAGE:**
 
@@ -341,10 +341,10 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178458244-6804c63f-16fb-444c-8769-d2466978917d.png)
+![image](https://user-images.githubusercontent.com/97939491/178458244-6804c63f-16fb-444c-8769-d2466978917d.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178458331-faa3d068-d411-4b4d-a8c6-ccf1233eed86.png)<br>
-![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)
-![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)
+![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)<br>
 
 **PROGRAM 17: PROGRAM TO PERFORM IMAGE ENHANCEMENT:**
 
@@ -403,7 +403,7 @@ plt.imshow(gradient)<br>
 cv2.waitKey(0)<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)
+![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)<br>
 
 **PROGRAM 19: DEVELOP A PROGRAM TO
 (i)READ THE IMAGE
@@ -516,114 +516,114 @@ plt.show()<br>
 
 **PROGRAM 23: PROGRAM TO PERFORM BASIC IMAGE DATA ANALYSIS USING INTENSITY TRANSFORMATION:**
 
-%matplotlib inline
-import imageio
-import matplotlib.pyplot as plt
-import warnings
-import matplotlib.cbook
-warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)
-pic=imageio.imread('b1.jpg')
-plt.figure(figsize=(6,6))
-plt.imshow(pic);
-plt.axis('off');
+%matplotlib inline<br>
+import imageio<br>
+import matplotlib.pyplot as plt<br>
+import warnings<br>
+import matplotlib.cbook<br>
+warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)<br>
+pic=imageio.imread('b1.jpg')<br>
+plt.figure(figsize=(6,6))<br>
+plt.imshow(pic);<br>
+plt.axis('off');<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179960709-0e464594-e1d0-4ea0-b5bd-a1734c426261.png)
+![image](https://user-images.githubusercontent.com/97939491/179960709-0e464594-e1d0-4ea0-b5bd-a1734c426261.png)<br>
 
-negative=255-pic #neg=(L-1)-img
-plt.figure(figsize=(6,6))
-plt.imshow(negative);
-plt.axis('off');
-
-**OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179963212-3080864b-4274-4442-aaf6-bd182220c6fd.png)
-
-%matplotlib inline
-import imageio
-import numpy as np
-import matplotlib.pyplot as plt
-pic=imageio.imread('b1.jpg')
-gray=lambda rgb:np.dot(rgb[...,:3],[0.299,0.587,0.114])
-gray=gray(pic)
-max_=np.max(gray)
-def log_transform():
-    return(255/np.log(1+max_))*np.log(1+gray)
-plt.figure(figsize=(5,5))
-plt.imshow(log_transform(),cmap=plt.get_cmap(name='gray'))
-plt.axis('off')
+negative=255-pic #neg=(L-1)-img<br>
+plt.figure(figsize=(6,6))<br>
+plt.imshow(negative);<br>
+plt.axis('off');<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179963476-d63afc71-e5c0-4b17-8a06-885e79633ce6.png)
+![image](https://user-images.githubusercontent.com/97939491/179963212-3080864b-4274-4442-aaf6-bd182220c6fd.png)<br>
 
-import imageio
-import matplotlib.pyplot as plt
-#Gamma encoding
-pic=imageio.imread('b1.jpg')
-gamma=2.2#Gamma<1~Dark;Gamma>1~Bright
-gamma_correction=((pic/255)**(1/gamma))
-plt.figure(figsize=(5,5))
-plt.imshow(gamma_correction)
-plt.axis('off');
+%matplotlib inline<br>
+import imageio<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+pic=imageio.imread('b1.jpg')<br>
+gray=lambda rgb:np.dot(rgb[...,:3],[0.299,0.587,0.114])<br>
+gray=gray(pic)<br>
+max_=np.max(gray)<br>
+def log_transform():<br>
+    return(255/np.log(1+max_))*np.log(1+gray)<br>
+plt.figure(figsize=(5,5))<br>
+plt.imshow(log_transform(),cmap=plt.get_cmap(name='gray'))<br>
+plt.axis('off')<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179963686-f1721d0c-fc53-40eb-bb5f-6a22f2517a2d.png)
+![image](https://user-images.githubusercontent.com/97939491/179963476-d63afc71-e5c0-4b17-8a06-885e79633ce6.png)<br>
+
+import imageio<br>
+import matplotlib.pyplot as plt<br>
+#Gamma encoding<br>
+pic=imageio.imread('b1.jpg')<br>
+gamma=2.2#Gamma<1~Dark;Gamma>1~Bright<br>
+gamma_correction=((pic/255)**(1/gamma))<br>
+plt.figure(figsize=(5,5))<br>
+plt.imshow(gamma_correction)<br>
+plt.axis('off');<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179963686-f1721d0c-fc53-40eb-bb5f-6a22f2517a2d.png)<br>
 
 **PROGRAM 24: PROGRAM TO PERFORM BASIC IMAGE MANIPULATION:
               (a)SHARPNESS
               (b)FLIPPING
-              (C)CROPPING**
+              (C)CROPPING**<br>
               
-#Image sharpen
-from PIL import Image
-from PIL import ImageFilter
-import matplotlib.pyplot as plt
-#Load the image
-my_image=Image.open('l1.jpg')
-#use sharpen function
-sharp=my_image.filter(ImageFilter.SHARPEN)
-#save the image
-sharp.save('D:/image_sharpen.jpg')
-sharp.show()
-plt.imshow(sharp)
-plt.show()            
+#Image sharpen<br>
+from PIL import Image<br>
+from PIL import ImageFilter<br>
+import matplotlib.pyplot as plt<br>
+#Load the image<br>
+my_image=Image.open('l1.jpg')<br>
+#use sharpen function<br>
+sharp=my_image.filter(ImageFilter.SHARPEN)<br>
+#save the image<br>
+sharp.save('D:/image_sharpen.jpg')<br>
+sharp.show()<br>
+plt.imshow(sharp)<br>
+plt.show()<br>            
    
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179964623-08dbf17a-46d0-40c4-b940-b5545926f2b6.png)
+![image](https://user-images.githubusercontent.com/97939491/179964623-08dbf17a-46d0-40c4-b940-b5545926f2b6.png)<br>
 
-#Image flip
-import matplotlib.pyplot as plt
-#Load the image
-img=Image.open('l1.jpg')
-plt.imshow(img)
-plt.show()
-#use the flip function
-flip=img.transpose(Image.FLIP_LEFT_RIGHT)
-#save the image
-flip.save('D:/image_flip.jpg')
-plt.imshow(flip)
-plt.show()
-
-**OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179964858-7a1b01e3-07f4-466e-904c-6522f2fce920.png)
-
-#Importing Image class from PIL module
-from PIL import Image
-import matplotlib.pyplot as plt
-#opens a image in RGB mode
-im=Image.open('l1.jpg')
-#size of image in pixels
-width,height=im.size
-#cropped image of above dimension
-#(It will not change original image)
-#(It is not mandatory)
-im1=im.crop((50,50,200,200))
-#shows the image in image viewer
-im1.show()
-plt.imshow(im1)
-plt.show()
+#Image flip<br>
+import matplotlib.pyplot as plt<br>
+#Load the image<br>
+img=Image.open('l1.jpg')<br>
+plt.imshow(img)<br>
+plt.show()<br>
+#use the flip function<br>
+flip=img.transpose(Image.FLIP_LEFT_RIGHT)<br>
+#save the image<br>
+flip.save('D:/image_flip.jpg')<br>
+plt.imshow(flip)<br>
+plt.show()<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/179965098-719145fd-88ac-477b-b651-3e5a35fe959d.png)
+![image](https://user-images.githubusercontent.com/97939491/179964858-7a1b01e3-07f4-466e-904c-6522f2fce920.png)<br><br>
+
+#Importing Image class from PIL module<br>
+from PIL import Image<br>
+import matplotlib.pyplot as plt<br>
+#opens a image in RGB mode<br>
+im=Image.open('l1.jpg')<br>
+#size of image in pixels<br>
+width,height=im.size<br>
+#cropped image of above dimension<br>
+#(It will not change original image)<br>
+#(It is not mandatory)<br>
+im1=im.crop((50,50,200,200))<br>
+#shows the image in image viewer<br>
+im1.show()<br>
+plt.imshow(im1)<br>
+plt.show()<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179965098-719145fd-88ac-477b-b651-3e5a35fe959d.png)<br>
 
 
 
