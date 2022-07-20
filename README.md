@@ -1,6 +1,6 @@
 
 
-**PROGRAM 1: DEVELOP A PROGRAM TO DISPLAY GRAY SCALE IMAGE USING READ AND WRITE OPERATION**
+**PROGRAM 1: DEVELOP A PROGRAM TO DISPLAY GRAY SCALE IMAGE USING READ AND WRITE OPERATION:**
    
  import cv2<br>
  img=cv2.imread('b1.jpg',0)<br>
@@ -22,6 +22,7 @@
 ![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
  
 **PROGRAM 3:DEVELOP A PROGRAM TO PERFORM LINEAR TRANSFORMATION:**
+
 from PIL import Image<br>
 img=Image.open('l1.jpg')<br>
 img=img.rotate(180)<br>
@@ -151,7 +152,7 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
 
-PROGRAM 11:Write a program to mask and blur the image
+**PROGRAM 11:WRITE THE PROGRAM TO MASK AND BLUR THE IMAGE:**
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -160,7 +161,7 @@ img=cv2.imread('Nemo.jpg')<br>
 plt.imshow(img)<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175016581-f6306b36-20bf-4e24-bb37-078e583ec0a5.png)<br>
 
 hsv_img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
@@ -174,6 +175,7 @@ plt.subplot(1,2,2)<br>
 plt.imshow(result)<br>
 plt.show()<br>
 
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175018103-8f9c2618-3c9e-4b98-820a-aefe1a99c8e0.png)<br>
 
 light_white=(0,0,200)<br>
@@ -186,6 +188,7 @@ plt.subplot(1,2,2)<br>
 plt.imshow(result_white)<br>
 plt.show()<br>
 
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175021322-e0c791b4-b034-459b-872a-fdab3c014de8.png)
 
 final_mask=mask+mask_white<br>
@@ -196,15 +199,17 @@ plt.subplot(1,2,2)<br>
 plt.imshow(final_result)<br>
 plt.show()<br>
 
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175022161-6a5274ee-c347-4a21-b126-471b2e687a6e.png)<br>
 
 blur=cv2.GaussianBlur(final_result,(7,7),0)<br>
 plt.imshow(blur)<br>
 plt.show()<br>
 
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175022486-66bbc556-701b-4919-a3f5-f046379189e8.png)
 
-PROGRAM 12: Write a program to perform arithmatic operation on image
+**PROGRAM 12: WRITE A PROGRAM TO PERFORM ARITHMETIC OPERATION ON IMAGE:**
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -240,13 +245,13 @@ plt.show()<br>
 #saving the output image<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178452658-68fa523a-9923-4f9a-a5bb-2bab4109c077.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452761-d96f382e-413a-4d93-bf65-16e1776fcfa8.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452865-47950bce-48c5-4250-9d31-84ce5c67111c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178452916-c567004a-4d69-46fd-8fe2-b1bebbe1647f.png)<br>
 
-PROGRAM 13: Develop the program to change the image to different color spaces
+**PROGRAM 13: DEVELOP A PROGRAM TO CAHNGE A IMAGE TO DIFFERENT COLOR SPACES:**
 
 import cv2<br> 
 img=cv2.imread('D:\\R.jpg')<br> 
@@ -263,14 +268,14 @@ cv2.imshow("YUV image",yuv)<br>
 cv2.waitKey(0)<br> 
 cv2.destroyAllWindows()<br> 
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178454236-802fe2c9-e15f-4897-b7b8-315bcb891228.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454307-e05af90c-8cdf-4091-bde6-78d38095305c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454399-85208802-0aef-4d72-9261-d79abce69a31.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454439-47e8eefd-38fd-410b-bd56-8e16896c6fe4.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454484-95c1d79b-1467-4daa-ad34-d3e28b32dfbb.png)<br>
 
-PROGRAM 14 :Program to create an image using 2D array<br>
+**PROGRAM 14 :PROGRAM TO CREATE IMAGE USING 2D ARRAY:**
 
 import cv2 as c<br>
 import numpy as np<br>
@@ -283,10 +288,10 @@ img.save('image1.png')<br>
 img.show()<br>
 c.waitKey(0)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)
 
-PROGRAM 15:Bitwise Operation
+**PROGRAM 15:PROGRAM TO PERFORM BITWISE OPERATION:**
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -310,11 +315,11 @@ plt.subplot(155)<br>
 plt.imshow(bitwiseNot_img2)<br>
 cv2.waitKey(0)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
 
-PROGRAM 16:Blurring image
+**PROGRAM 16:PROGRAM TO PERFORM BLURRING THE IMAGE:**
 
 importing libraries<br>
 import cv2<br>
@@ -336,13 +341,13 @@ cv2.imshow('Bilateral Blurring',bilateral)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178458244-6804c63f-16fb-444c-8769-d2466978917d.png)
 ![image](https://user-images.githubusercontent.com/97939491/178458331-faa3d068-d411-4b4d-a8c6-ccf1233eed86.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)
 ![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)
 
-PROGRAM 17:Image enhancement
+**PROGRAM 17:PROGRAM TO PERFORM IMAGE ENHANCEMENT:**
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -365,14 +370,14 @@ sharpness=3.0<br>
 image_sharped=enh_sha.enhance(sharpness)<br>
 image_sharped.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178459237-7c2f1ef6-4b0e-40f8-b4fe-ad540ccf1aa5.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459281-c970b2e8-bc70-4589-a0de-5a56d8615424.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459335-ff1c09c9-202c-4fd9-b637-16a01646016c.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459374-4b664932-83dd-41f0-b60c-723bd7340152.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459421-d2b87e85-2752-4978-a501-8d0247e0e8f2.png)<br>
 
-PROGRAM 18:Morphological Operation
+**PROGRAM 18:PROGRAM TO PERFORM MORPHOLOGICAL OPERATIONS:**
 
 import cv2<br>
 import numpy as np<br>
@@ -398,13 +403,13 @@ plt.subplot(155)<br>
 plt.imshow(gradient)<br>
 cv2.waitKey(0)<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)
 
-PROGRAM 19:Develop a program to
-(i)Read the image
-(ii)Write (save) the gray scale image and 
-(iii)Display the original image and grayscale image
+**PROGRAM 19:DEVELOP A PROGRAM TO
+(i)READ THE IMAGE
+(ii)WRITE (SAVE) THE GRAY SCALE IMAGE
+(iii)DISPLAY ORIGINAL IMAGE AND GRAY SCALE IMAGE:**
 
 import cv2<br>
 OriginalImg=cv2.imread('b1.jpg')<br>
@@ -417,12 +422,11 @@ cv2.destroyAllWindows()<br>
 if isSaved:<br>
      print('The image is successfully saved.')<br>
      
-OUTPUT:<br>
-
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178711706-314add0a-9386-4a9e-9eac-61d3344ef1fb.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178711832-af98e611-cd33-45ce-88e6-6f32f8514468.png)<br>
 
-PROGRAM 20: Slicing with background:
+**PROGRAM 20: SLICING WITH BACKGROUND:**
 
 import cv2<br>
 import numpy as np<br>
@@ -441,11 +445,10 @@ plt.title('Gray level slicing with background')<br>
 plt.imshow(equ,'gray')<br>
 plt.show()<br>
 
-OUTPUT:
-
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178712823-ad57859f-b838-4d6b-ad4c-73a12e28cefa.png)<br>
 
-PROGRAM 21: Slicing without background:
+**PROGRAM 21:SLICING WITHOUT BACKGROUNG:**
 
 import cv2<br>
 import numpy as np<br>
@@ -464,18 +467,17 @@ plt.title('Gray level slicing w/o background')<br>
 plt.imshow(equ,'gray')<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178715584-3fdeb980-37b6-4565-a2ae-ddc3e38d6663.png)<br>
 
-Program22: Analyse the image data using histogram
-
+**PROGRAM 22: ANALYSE THE IMAGE DATA USING HISTOGRAM:**
 import cv2<br>
 from matplotlib import pyplot as plt<br>
 img = cv2.imread('b1.jpg',0)<br>
 plt.hist(img.ravel(),256,[0,256])<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178961125-21995c0e-95be-40c8-b4af-057e7aa97186.png)<br>
 
 import cv2<br>
@@ -485,7 +487,7 @@ histr = cv2.calcHist([img],[0],None,[256],[0,256])<br>
 plt.plot(histr)<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178963075-d94a1112-31ef-4f40-a302-93d58837fca3.png)<br>
 
 from skimage import io<br>
@@ -500,7 +502,7 @@ plt.ylabel('Count')<br>
 plt.legend(['Total', 'Red_Channel', 'Green_Channel', 'Blue_Channel'])<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178963461-b91aa4f1-7dbb-4b9a-8527-4678cfbb8fc7.png)<br>
 
 import cv2<br>
@@ -510,5 +512,5 @@ hist=cv2.calcHist([img],[0],None,[256],[0,256])<br>
 plt.hist(img.ravel(),256,[0,256])<br>
 plt.show()<br>
 
-OUTPUT:<br>
+**OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178963807-fe01a9c2-276c-4e98-b77d-bcce1a99dea9.png)<br>
