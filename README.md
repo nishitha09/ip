@@ -247,10 +247,8 @@ plt.show()<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 
 **OUTPUT:<br>**
-![image](https://user-images.githubusercontent.com/97939491/178452658-68fa523a-9923-4f9a-a5bb-2bab4109c077.png)<br>
-![image](https://user-images.githubusercontent.com/97939491/178452761-d96f382e-413a-4d93-bf65-16e1776fcfa8.png)<br>
-![image](https://user-images.githubusercontent.com/97939491/178452865-47950bce-48c5-4250-9d31-84ce5c67111c.png)<br>
-![image](https://user-images.githubusercontent.com/97939491/178452916-c567004a-4d69-46fd-8fe2-b1bebbe1647f.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/179968143-79b68637-ac3a-408b-ab94-35b9c5ed13dd.png)
+![image](https://user-images.githubusercontent.com/97939491/179968234-e5cc2b1c-9bae-4562-a373-903e57711979.png)
 
 **PROGRAM 13: DEVELOP A PROGRAM TO CAHNGE A IMAGE TO DIFFERENT COLOR SPACES:**
 
