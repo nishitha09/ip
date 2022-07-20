@@ -515,3 +515,60 @@ plt.show()<br>
 
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178963807-fe01a9c2-276c-4e98-b77d-bcce1a99dea9.png)<br>
+
+**PROGRAM 23:PROGRAM TO PERFORM BASIC IMAGE DATA ANALYSIS USING INTENSITY TRANSFORMATION:**
+
+%matplotlib inline
+import imageio
+import matplotlib.pyplot as plt
+import warnings
+import matplotlib.cbook
+warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)
+pic=imageio.imread('b1.jpg')
+plt.figure(figsize=(6,6))
+plt.imshow(pic);
+plt.axis('off');
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179960709-0e464594-e1d0-4ea0-b5bd-a1734c426261.png)
+
+negative=255-pic #neg=(L-1)-img
+plt.figure(figsize=(6,6))
+plt.imshow(negative);
+plt.axis('off');
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179963212-3080864b-4274-4442-aaf6-bd182220c6fd.png)
+
+%matplotlib inline
+import imageio
+import numpy as np
+import matplotlib.pyplot as plt
+pic=imageio.imread('b1.jpg')
+gray=lambda rgb:np.dot(rgb[...,:3],[0.299,0.587,0.114])
+gray=gray(pic)
+max_=np.max(gray)
+def log_transform():
+    return(255/np.log(1+max_))*np.log(1+gray)
+plt.figure(figsize=(5,5))
+plt.imshow(log_transform(),cmap=plt.get_cmap(name='gray'))
+plt.axis('off')
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179963476-d63afc71-e5c0-4b17-8a06-885e79633ce6.png)
+
+import imageio
+import matplotlib.pyplot as plt
+#Gamma encoding
+pic=imageio.imread('b1.jpg')
+gamma=2.2#Gamma<1~Dark;Gamma>1~Bright
+gamma_correction=((pic/255)**(1/gamma))
+plt.figure(figsize=(5,5))
+plt.imshow(gamma_correction)
+plt.axis('off');
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179963686-f1721d0c-fc53-40eb-bb5f-6a22f2517a2d.png)
+
+
+
