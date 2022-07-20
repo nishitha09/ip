@@ -21,7 +21,7 @@
  **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444384-50f41d8f-61f0-43bb-bd01-2a68218079d8.png)
  
-**PROGRAM 3:DEVELOP A PROGRAM TO PERFORM LINEAR TRANSFORMATION:**
+**PROGRAM 3: DEVELOP A PROGRAM TO PERFORM LINEAR TRANSFORMATION:**
 
 from PIL import Image<br>
 img=Image.open('l1.jpg')<br>
@@ -33,7 +33,7 @@ cv2.destroyAllWindows()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178444653-1645cde6-84ab-425c-b2e0-2285b07781bf.png)
 
-**PROGRAM 4:DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
+**PROGRAM 4: DEVELOP PROGRAM TO CONVERT COLOR STRING TO RGB COLOR VALUES:**
 
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -51,7 +51,7 @@ print(img4)<br>
 (255, 192, 203)<br>
 (0, 0, 255)<br>
 
-**PROGRAM 5:DEVELOP PROGRAM TO CREATE IMAGE USING COLORS:**
+**PROGRAM 5: DEVELOP PROGRAM TO CREATE IMAGE USING COLORS:**
 
 from PIL import Image<br>
 img=Image.new("RGB",(200,400),(0, 0, 255))<br>
@@ -60,7 +60,7 @@ img.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/173813696-f552419d-9b39-4595-bf01-92f689afc915.png)
 
-**PROGRAM 6:DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
+**PROGRAM 6: DEVELOP A PROGRAM TO VISUALIZE THE IMAGE USING VARIOUS COLOR SPACE:**
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -80,7 +80,7 @@ plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446532-b9b97c60-93f3-4583-9bfb-e02d172978cb.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178446664-c6bdb21f-d7b9-406c-bfa0-f0f100434534.png)<br>
 
-**PROGRAM 7:WRITE A PROGRAM TO DISPLAY IMAGE ATTRIBUTE:**
+**PROGRAM 7: WRITE A PROGRAM TO DISPLAY IMAGE ATTRIBUTE:**
 
 from PIL import Image<br>
 image=Image.open('16.jpg')<br>
@@ -100,7 +100,7 @@ size: (600, 398)<br>
 Width: 600<br>
 Height: 398<br>
 
-**PROGRAM 8:CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
+**PROGRAM 8: CONVERT ORIGINAL IMAGE TO GRAY SCALE AND THEN TO BINARY:** 
 
 import cv2<br>
 #read the image file<br>
@@ -122,7 +122,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447670-c74210bd-031b-4159-b0f8-2ceee4e26204.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
-**PROGRAM 9:RESIZE THE ORIGINAL IMAGE**
+**PROGRAM 9: RESIZE THE ORIGINAL IMAGE**
 import cv2<br>
 img=cv2.imread('b4.jpg')<br>
 print('original image length width',img.shape)<br>
@@ -141,7 +141,7 @@ Resized image length width (160, 150, 3)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178448146-4e7875ec-57f0-4179-83e0-82951d20d7f2.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178448225-662a0718-9623-487e-8ec3-fb4b1e0b426e.png)<br>
 
-**PROGRAM 10 :WRITE PROGRAM TO READ IMAGE USING URL:**
+**PROGRAM 10: WRITE PROGRAM TO READ IMAGE USING URL:**
 
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
@@ -153,7 +153,7 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175005167-37733182-adc1-4404-b89c-e98949093711.png)
 
-**PROGRAM 11:WRITE THE PROGRAM TO MASK AND BLUR THE IMAGE:**
+**PROGRAM 11: WRITE THE PROGRAM TO MASK AND BLUR THE IMAGE:**
 
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -276,7 +276,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454439-47e8eefd-38fd-410b-bd56-8e16896c6fe4.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178454484-95c1d79b-1467-4daa-ad34-d3e28b32dfbb.png)<br>
 
-**PROGRAM 14 :PROGRAM TO CREATE IMAGE USING 2D ARRAY:**
+**PROGRAM 14: PROGRAM TO CREATE IMAGE USING 2D ARRAY:**
 
 import cv2 as c<br>
 import numpy as np<br>
@@ -292,7 +292,7 @@ c.waitKey(0)<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939284/175276384-61662c7b-8a30-4104-b4ad-327a1a03b6e0.png)
 
-**PROGRAM 15:PROGRAM TO PERFORM BITWISE OPERATION:**
+**PROGRAM 15: PROGRAM TO PERFORM BITWISE OPERATION:**
 
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -320,7 +320,7 @@ cv2.waitKey(0)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178456927-8e7d0805-7eb9-4584-a40a-ed8213ede7d6.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178457049-d94bbf24-311d-4986-846e-a92cd5a25a63.png)
 
-**PROGRAM 16:PROGRAM TO PERFORM BLURRING THE IMAGE:**
+**PROGRAM 16: PROGRAM TO PERFORM BLURRING THE IMAGE:**
 
 importing libraries<br>
 import cv2<br>
@@ -348,7 +348,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178458409-06e8c8a5-dd73-43b0-84a0-6267b05d3389.png)
 ![image](https://user-images.githubusercontent.com/97939491/178458506-17c581f0-5e12-4a95-b04d-d69dc0985c70.png)
 
-**PROGRAM 17:PROGRAM TO PERFORM IMAGE ENHANCEMENT:**
+**PROGRAM 17: PROGRAM TO PERFORM IMAGE ENHANCEMENT:**
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -378,7 +378,7 @@ image_sharped.show()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459374-4b664932-83dd-41f0-b60c-723bd7340152.png)<br>
 ![image](https://user-images.githubusercontent.com/97939491/178459421-d2b87e85-2752-4978-a501-8d0247e0e8f2.png)<br>
 
-**PROGRAM 18:PROGRAM TO PERFORM MORPHOLOGICAL OPERATIONS:**
+**PROGRAM 18: PROGRAM TO PERFORM MORPHOLOGICAL OPERATIONS:**
 
 import cv2<br>
 import numpy as np<br>
@@ -407,7 +407,7 @@ cv2.waitKey(0)<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178459539-58a25f84-58b7-4b48-b38e-c5862fdc7bf1.png)
 
-**PROGRAM 19:DEVELOP A PROGRAM TO
+**PROGRAM 19: DEVELOP A PROGRAM TO
 (i)READ THE IMAGE
 (ii)WRITE (SAVE) THE GRAY SCALE IMAGE
 (iii)DISPLAY ORIGINAL IMAGE AND GRAY SCALE IMAGE:**
@@ -449,7 +449,7 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178712823-ad57859f-b838-4d6b-ad4c-73a12e28cefa.png)<br>
 
-**PROGRAM 21:SLICING WITHOUT BACKGROUNG:**
+**PROGRAM 21: SLICING WITHOUT BACKGROUNG:**
 
 import cv2<br>
 import numpy as np<br>
@@ -516,7 +516,7 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/178963807-fe01a9c2-276c-4e98-b77d-bcce1a99dea9.png)<br>
 
-**PROGRAM 23:PROGRAM TO PERFORM BASIC IMAGE DATA ANALYSIS USING INTENSITY TRANSFORMATION:**
+**PROGRAM 23: PROGRAM TO PERFORM BASIC IMAGE DATA ANALYSIS USING INTENSITY TRANSFORMATION:**
 
 %matplotlib inline
 import imageio
@@ -569,6 +569,63 @@ plt.axis('off');
 
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/179963686-f1721d0c-fc53-40eb-bb5f-6a22f2517a2d.png)
+
+**PROGRAM 24: PROGRAM TO PERFORM BASIC IMAGE MANIPULATION:
+              (a)SHARPNESS
+              (b)FLIPPING
+              (C)CROPPING**
+              
+#Image sharpen
+from PIL import Image
+from PIL import ImageFilter
+import matplotlib.pyplot as plt
+#Load the image
+my_image=Image.open('l1.jpg')
+#use sharpen function
+sharp=my_image.filter(ImageFilter.SHARPEN)
+#save the image
+sharp.save('D:/image_sharpen.jpg')
+sharp.show()
+plt.imshow(sharp)
+plt.show()            
+   
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179964623-08dbf17a-46d0-40c4-b940-b5545926f2b6.png)
+
+#Image flip
+import matplotlib.pyplot as plt
+#Load the image
+img=Image.open('l1.jpg')
+plt.imshow(img)
+plt.show()
+#use the flip function
+flip=img.transpose(Image.FLIP_LEFT_RIGHT)
+#save the image
+flip.save('D:/image_flip.jpg')
+plt.imshow(flip)
+plt.show()
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179964858-7a1b01e3-07f4-466e-904c-6522f2fce920.png)
+
+#Importing Image class from PIL module
+from PIL import Image
+import matplotlib.pyplot as plt
+#opens a image in RGB mode
+im=Image.open('l1.jpg')
+#size of image in pixels
+width,height=im.size
+#cropped image of above dimension
+#(It will not change original image)
+#(It is not mandatory)
+im1=im.crop((50,50,200,200))
+#shows the image in image viewer
+im1.show()
+plt.imshow(im1)
+plt.show()
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/179965098-719145fd-88ac-477b-b651-3e5a35fe959d.png)
 
 
 
