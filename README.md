@@ -698,4 +698,19 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/180195119-41c5980a-4f9a-4562-a12b-813f88f89dbe.png)<br>
 
+from PIL import Image<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+w, h = 512, 512<br>
+data = np.zeros((h, w, 3), dtype=np.uint8)<br>
+data[0:100, 0:100] = [255, 0, 0]<br>
+data[100:200, 100:200] = [255, 0, 255]<br>
+data[200:300, 200:300] = [0, 255, 0]<br>
+img = Image.fromarray(data, 'RGB')<br>
+img.save('my.png')<br>
+plt.imshow(img)<br>
+plt.show()<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/180201549-ae5ab22c-7853-4a54-b022-70f2376dbadc.png)<br>
 
