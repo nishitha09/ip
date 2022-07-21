@@ -470,6 +470,7 @@ plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178715584-3fdeb980-37b6-4565-a2ae-ddc3e38d6663.png)<br>
 
 **PROGRAM 22: ANALYSE THE IMAGE DATA USING HISTOGRAM:**
+
 import cv2<br>
 from matplotlib import pyplot as plt<br>
 img = cv2.imread('b1.jpg',0)<br>
