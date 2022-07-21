@@ -559,7 +559,7 @@ import imageio<br>
 import matplotlib.pyplot as plt<br>
 #Gamma encoding<br>
 pic=imageio.imread('b1.jpg')<br>
-gamma=2.2#Gamma<1~Dark;Gamma>1~Bright<br>
+gamma=2.2#Gamma<1~Dark; Gamma>1~Bright<br>
 gamma_correction=((pic/255)**(1/gamma))<br>
 plt.figure(figsize=(5,5))<br>
 plt.imshow(gamma_correction)<br>
