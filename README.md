@@ -735,14 +735,14 @@ plt.imshow(img)<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/181432254-70101d64-ee44-4c5d-9879-01290879defe.png)<br>
 
-# Python3 program for printing<br>
-# the rectangular pattern<br>
- # Function to print the pattern<br>
+#Python3 program for printing<br>
+#the rectangular pattern<br>
+ #Function to print the pattern<br>
 def printPattern(n):<br>
     arraySize = n * 2 - 1;<br>
     result = [[0 for x in range(arraySize)]<br>
                  for y in range(arraySize)];<br>
-    # Fill the values<br>
+    #Fill the values<br>
     for i in range(arraySize):<br>
         for j in range(arraySize):<br>
             if(abs(i - (arraySize // 2)) ><br>
@@ -750,12 +750,12 @@ def printPattern(n):<br>
                 result[i][j] = abs(i - (arraySize // 2)) ;<br>
             else:<br>
                 result[i][j] = abs(j - (arraySize // 2)) ;<br>
-    # Print the array<br>
+    #Print the array<br>
     for i in range(arraySize):<br>
         for j in range(arraySize):<br>
             print(result[i][j], end = " ");<br>
         print("");<br>
-# Driver Code<br>
+#Driver Code<br>
 n = 3;<br>
 printPattern(n);<br>
 
