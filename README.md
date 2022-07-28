@@ -716,3 +716,48 @@ plt.show()<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/180202825-69ff90b6-56f3-420d-9a6f-ed642f9fd8e1.png)<br>
 
+from PIL import Image<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+w, h = 512, 512<br>
+data = np.zeros((h, w, 3), dtype=np.uint8)<br>
+data[0:120, 0:512] = [255, 255, 255]<br>
+data[120:256, 0:512] = [218, 218, 218]<br>
+data[256:320, 0:512] = [0, 0,0]<br>
+data[320:420, 0:512] = [218, 218,218]<br>
+data[420:512, 0:512] = [255, 255,255]<br>
+# red patch in upper left<br>
+img = Image.fromarray(data, 'RGB')<br>
+img.save('img8.jpg')<br>
+img.show()<br>
+plt.imshow(img)<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181432254-70101d64-ee44-4c5d-9879-01290879defe.png)<br>
+
+# Python3 program for printing<br>
+# the rectangular pattern<br>
+ # Function to print the pattern<br>
+def printPattern(n):<br>
+    arraySize = n * 2 - 1;<br>
+    result = [[0 for x in range(arraySize)]<br>
+                 for y in range(arraySize)];<br>
+    # Fill the values<br>
+    for i in range(arraySize):<br>
+        for j in range(arraySize):<br>
+            if(abs(i - (arraySize // 2)) ><br>
+               abs(j - (arraySize // 2))):<br>
+                result[i][j] = abs(i - (arraySize // 2)) ;<br>
+            else:<br>
+                result[i][j] = abs(j - (arraySize // 2)) ;<br>
+    # Print the array<br>
+    for i in range(arraySize):<br>
+        for j in range(arraySize):<br>
+            print(result[i][j], end = " ");<br>
+        print("");<br>
+# Driver Code<br>
+n = 3;<br>
+printPattern(n);<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181432644-fdfd3bb2-78c1-407f-80a6-ddf93ef9b589.png)
