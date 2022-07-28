@@ -761,3 +761,51 @@ printPattern(n);<br>
 
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/181432644-fdfd3bb2-78c1-407f-80a6-ddf93ef9b589.png)
+
+**PROGRAM 26:
+
+import cv2<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+img=cv2.imread("f1.JPG",0)<br>
+img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
+plt.imshow(img)<br>
+np.average(img)<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181433384-98896e6f-940f-4071-8628-6168e853daa4.png)<br>
+
+import cv2<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+img=cv2.imread('f1.jpg' )<br>
+plt.imshow(img)<br>
+plt.show()<br>
+max_channels = np.amax([np.amax(img[:,:,0]), np.amax(img[:,:,1]),np.amax(img[:,:,2])])<br>
+print(max_channels)<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181433650-450c9826-c6c4-4633-a424-50de94ea260c.png)<br>
+
+import cv2<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+img=cv2.imread('f1.jpg' )<br>
+plt.imshow(img)<br>
+plt.show()<br>
+min_channels = np.amin([np.min(img[:,:,0]), np.amin(img[:,:,1]),np.amin(img[:,:,2])])<br>
+print(min_channels)<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181433895-44198a1b-6c52-4d42-aafa-4f368a8f5863.png)<br>
+
+from PIL import Image,ImageStat<br>
+import matplotlib.pyplot as plt<br>
+im=Image.open('f1.jpg')<br>
+plt.imshow(im)<br>
+plt.show()<br>
+stat=ImageStat.Stat(im)<br>
+print(stat.stddev)<br>
+
+**OUTPUT:<br>**
+![image](https://user-images.githubusercontent.com/97939491/181434168-6c786e1f-52a5-4ee9-91c1-5f33b11dc673.png)<br>
