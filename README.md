@@ -861,3 +861,18 @@ plt.imshow(edges, cmap='gray')<br>
 **OUTPUT:**<br>
 ![image](https://user-images.githubusercontent.com/97939491/186404519-7c86f0cb-fa98-47fb-b05c-95fefb234bc9.png)<br>
 
+**PROGRAM: MASK AN IMAGE
+
+import numpy as np<br>
+from skimage import data<br>
+import matplotlib.pyplot as plt<br>
+%matplotlib inline<br>
+image = data.camera()<br>
+type(image)<br>
+np.ndarray #Image is a numpy array<br>
+mask = image < 87<br>
+image[mask]=255<br>
+plt.imshow(image, cmap='gray')<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/186405913-9d2bac6b-3280-4113-9bca-53a17cbecf1e.png)<br>
