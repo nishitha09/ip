@@ -809,3 +809,43 @@ print(stat.stddev)<br>
 
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/181434168-6c786e1f-52a5-4ee9-91c1-5f33b11dc673.png)<br>
+
+**PROGRAM:
+
+import cv2<br>
+# Read the original image<br>
+img = cv2.imread('l2.jpg')<br>
+# Display original image<br>
+cv2.imshow('Original', img)<br>
+cv2.waitKey(0)<br>
+# Convert to graycsale<br>
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)<br>
+# Blur the image for better edge detection<br>
+img_blur = cv2.GaussianBlur(img_gray, (3,3), 0)<br>
+# Sobel Edge Detection<br>
+sobelx = cv2.Sobel(src=img_blur, ddepth=cv2.CV_64F, dx=1, dy=0, ksize=5) # Sobel Edge Detection on the X axis<br>
+sobely = cv2.Sobel(src=img_blur, ddepth=cv2.CV_64F, dx=0, dy=1, ksize=5) # Sobel Edge Detection on the Y axis<br>
+sobelxy = cv2.Sobel(src=img_blur, ddepth=cv2.CV_64F, dx=1, dy=1, ksize=5) # Combined X and Y Sobel Edge Detection<br>
+# Display Sobel Edge Detection Images<br>
+cv2.imshow('Sobel X', sobelx)<br>
+cv2.waitKey(0)<br>
+cv2.imshow('Sobel Y', sobely)<br>
+cv2.waitKey(0)<br>
+cv2.imshow('Sobel X Y using Sobel() function', sobelxy)<br>
+cv2.waitKey(0)<br>
+# Canny Edge Detection<br>
+edges = cv2.Canny(image=img_blur, threshold1=100, threshold2=200) # Canny Edge Detection<br>
+# Display Canny Edge Detection Image<br>
+cv2.imshow('Canny Edge Detection', edges)<br>
+cv2.waitKey(0)<br>
+cv2.destroyAllWindows()<br>
+
+**OUTPUT:**
+![image](https://user-images.githubusercontent.com/97939491/186401184-19797d7f-6095-4631-8694-610ab7189fc5.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/186401348-b1b202f1-c1ae-477b-b1cb-f864f784b121.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/186401490-2678a49a-8e6a-48ed-8453-98a5dd1f44c0.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/186401610-b11652e0-230d-4692-b7b7-4e1a06ab55c8.png)<br>
+![image](https://user-images.githubusercontent.com/97939491/186401716-b96698f3-99ce-433f-9e95-2a90370c2eb8.png)<br>
+
+
+
