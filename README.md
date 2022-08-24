@@ -848,4 +848,16 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/186401716-b96698f3-99ce-433f-9e95-2a90370c2eb8.png)<br>
 
 
+**PROGRAM : IMAGE FILTERING**
+
+import matplotlib.pyplot as plt<br>
+%matplotlib inline<br>
+from skimage import data,filters<br>
+image = data.coins()<br>
+#... or any other NumPy array!<br>
+edges = filters.sobel(image)<br>
+plt.imshow(edges, cmap='gray')<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/186404519-7c86f0cb-fa98-47fb-b05c-95fefb234bc9.png)<br>
 
