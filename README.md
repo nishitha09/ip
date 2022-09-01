@@ -123,6 +123,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/178447726-cce526ad-5d19-48e6-bf08-5a9568be22f4.png)<br>
 
 **PROGRAM 9: RESIZE THE ORIGINAL IMAGE:**
+
 import cv2<br>
 img=cv2.imread('b4.jpg')<br>
 print('original image length width',img.shape)<br>
