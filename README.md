@@ -876,3 +876,84 @@ plt.imshow(image, cmap='gray')<br>
 
 **OUTPUT:**<br>
 ![image](https://user-images.githubusercontent.com/97939491/186405913-9d2bac6b-3280-4113-9bca-53a17cbecf1e.png)<br>
+
+**PROGRAM: 
+
+from PIL import Image,ImageChops,ImageFilter<br>
+from matplotlib import pyplot as plt<br>
+#create a PIL Image objects<br>
+x = Image.open("x.png")<br>
+o = Image.open("o.png")<br>
+#Find out attributes of Image objects<br>
+print('size of the image:',x.size,'colour mode:',x.mode)<br>
+print('size of the image:',o.size,'colour mode:',o.mode)<br>
+#plot 2 images one besides the other<br>
+plt.subplot(121),plt.imshow(x)<br>
+plt.axis('off')<br>
+plt.subplot(122),plt.imshow(o)<br>
+plt.axis('off')<br>
+#multiply images<br>
+merged=ImageChops.multiply(x,o)<br>
+#adding 2 images<br>
+add=ImageChops.add(x,o)<br>
+#convert colour mode<br>
+greyscale = merged.convert('L')<br>
+greyscale<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187875215-184c4abd-2cd7-4c6d-869f-0aeea0659781.png)<br>
+
+#More Attributes<br>
+image=merged<br>
+print('image size:',image.size,<br>
+      '\ncolor mode:',image.mode,<br>
+      '\nimage width:',image.width,'|also represented by:',image.size[0],<br>
+      '\nimage height:',image.height,'|also represented by:',image.size[1],)<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187875807-5abd9d6c-ba20-4d7e-bc02-3a8fd6691f27.png)<br>
+
+#mapping the pixels of the image so we can use them as coordinates<br>
+pixel = greyscale.load()<br>
+#a nested loop to parse through all the pixels in the image<br>
+for row in range(greyscale.size[0]):<br>
+    for column in range(greyscale.size[1]):<br>
+        if pixel[row,column]!=(255):<br>
+            pixel[row,column]=(0)<br>
+greyscale<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187876075-7fec098d-9d5c-4373-ae72-a2d2942a5fa6.png)<br>
+
+#1.invert image<br>
+invert = ImageChops.invert(greyscale)<br>
+#2.invert by subtraction<br>
+bg = Image.new('L',(256,256),color=(255))#create a new image with a solid white background<br>
+subt = ImageChops.subtract(bg, greyscale)#subtract image from background<br>
+#3.rotate<br>
+rotate = subt.rotate(45)<br>
+rotate<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187876447-2ea6e375-a78f-4552-90d0-a7ac400b89e8.png)
+
+#gaussian blur<br>
+blur=greyscale.filter(ImageFilter.GaussianBlur(radius=1))<br>
+#edge dtection<br>
+edge = blur.filter(ImageFilter.FIND_EDGES)<br>
+edge<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187876785-b8177c2c-5a72-43c4-8e18-6964d8f09a0b.png)<br>
+
+#change edge colours<br>
+edge = edge.convert('RGB')<br>
+bg_red = Image.new('RGB',(256,256),color=(255,0,0))<br>
+filled_edge = ImageChops.darker(bg_red,edge)<br>
+filled_edge<br>
+
+**OUTPUT:**<br>
+![image](https://user-images.githubusercontent.com/97939491/187877091-7b53c425-0cc6-4f8a-a10a-230d48ff49a0.png)<br>
+
+#save image in the directory<br>
+edge.save('processed.png')<br>
