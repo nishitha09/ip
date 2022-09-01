@@ -763,7 +763,7 @@ printPattern(n);<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/181432644-fdfd3bb2-78c1-407f-80a6-ddf93ef9b589.png)
 
-**PROGRAM 26:
+**PROGRAM 26:PROGRAM TO FIND THE AVERAGE, MAXIMUM,MINIMUM AND STANDARD DEVIATION PIXEL VALUE FROM THE IMAGE:**
 
 import cv2<br>
 import numpy as np<br>
@@ -811,7 +811,7 @@ print(stat.stddev)<br>
 **OUTPUT:<br>**
 ![image](https://user-images.githubusercontent.com/97939491/181434168-6c786e1f-52a5-4ee9-91c1-5f33b11dc673.png)<br>
 
-**PROGRAM:
+**PROGRAM 27: PROGRAM TO PERFORM EDGE DETECTION:** 
 
 import cv2<br>
 #Read the original image<br>
