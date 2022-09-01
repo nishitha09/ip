@@ -849,7 +849,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97939491/186401716-b96698f3-99ce-433f-9e95-2a90370c2eb8.png)<br>
 
 
-**PROGRAM : IMAGE FILTERING**
+**PROGRAM 28: IMAGE FILTERING**
 
 import matplotlib.pyplot as plt<br>
 %matplotlib inline<br>
@@ -862,7 +862,7 @@ plt.imshow(edges, cmap='gray')<br>
 **OUTPUT:**<br>
 ![image](https://user-images.githubusercontent.com/97939491/186404519-7c86f0cb-fa98-47fb-b05c-95fefb234bc9.png)<br>
 
-**PROGRAM: MASK AN IMAGE**
+**PROGRAM 29: MASK AN IMAGE**
 
 import numpy as np<br>
 from skimage import data<br>
@@ -878,7 +878,7 @@ plt.imshow(image, cmap='gray')<br>
 **OUTPUT:**<br>
 ![image](https://user-images.githubusercontent.com/97939491/186405913-9d2bac6b-3280-4113-9bca-53a17cbecf1e.png)<br>
 
-**PROGRAM: BASIC PILLOW FUNCTION**
+**PROGRAM 30: BASIC PILLOW FUNCTION**
 
 from PIL import Image,ImageChops,ImageFilter<br>
 from matplotlib import pyplot as plt<br>
@@ -959,7 +959,7 @@ filled_edge<br>
 #save image in the directory<br>
 edge.save('processed.png')<br>
 
-**PROGRAM: IMAGE RESTORATION**
+**PROGRAM 31: IMAGE RESTORATION**
 
 import numpy as np<br>
 import cv2<br>
